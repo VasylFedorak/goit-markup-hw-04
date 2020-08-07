@@ -439,6 +439,40 @@ body {
   width: calc((100% - 30px * 3) / 4);
 }
 
+.advantage .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.first-advant::before {
+  background-image: url(../img/img-icons/antena1.svg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second-advant::before {
+  background-image: url(../img/img-icons/cloсk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third-advant::before {
+  background-image: url(../img/img-icons/diagram.1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fours-advant::before {
+  background-image: url(../img/img-icons/astronaut1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*.advantage .item:not(:last-child) {
   margin-right: 30px;
 }*/
