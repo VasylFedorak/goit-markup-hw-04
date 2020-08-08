@@ -42,7 +42,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 
-  outline: 2px solid blue;
+  /*outline: 2px solid blue;*/
 }
 
 /*Потрібні падінги для контейнерів*/
@@ -92,7 +92,7 @@ body {
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: coral;
+  /*background-color: coral;*/
 }
 
 .list {
@@ -583,4 +583,97 @@ body {
 
 .list.nav > li:not(:last-child) {
   margin-right: 8px;
+}
+
+.project {
+  border: 1px solid #eeeeee;
+}
+
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--bgc);
+  border-radius: 50%;
+}
+
+.member-item {
+  display: block;
+  height: 422px;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.social-icon {
+  fill: #afb1b8;
+}
+
+.social-icon-link:hover {
+  background-color: var(--hover-button-blue);
+}
+
+.social-icon-link:hover .social-icon {
+  fill: var(--bgc);
+}
+
+.footer-media .social-icon-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-media .social-icon {
+  fill: var(--bgc);
+}
+
+.footer-media .social-icon-link:hover {
+  background-color: var(--hover-button-blue);
+}
+
+.partners-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-icon-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  background-color: var(--bgc);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.partners-icon-link:hover {
+  border-color: var(--hover-button-blue);
+}
+
+.partners-icon-link:hover .partners-icon {
+  fill: var(--hover-button-blue);
+}
+
+.partners-icon {
+  fill: #afb1b8;
+}
+
+.auth-icon {
+  margin-right: 10px;
 }

@@ -16,7 +16,7 @@
   </head>
   <body>
     <!--Шапка портфоліо-->
-    <header>
+    <header class="header-frame">
       <div class="container">
         <nav class="main-nav">
           <a href="./index.html" aria-label="WEB Studio link" class="logo">
@@ -46,11 +46,15 @@
           <ul class="list auth-nav">
             <li>
               <a href="mailto:info@devstudio.com" class="link contacts active"
+                ><svg class="auth-icon" width="16" height="11">
+                  <use href="./img/sprite.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
             <li>
               <a href="tel:+380961111111" class="link contacts active"
+                ><svg class="auth-icon" width="10" height="15">
+                  <use href="./img/sprite.svg#icon-smartphone-2"></use></svg
                 >+38 096 111 11 11</a
               >
             </li>
@@ -99,7 +103,7 @@
           <!--наші роботи-->
           <ul class="list examples">
             <!--перша робота-->
-            <li class="item">
+            <li class="item project">
               <a href="" aria-label="Технокряк link" class="link-portfolio"
                 ><img
                   src="./img/img-portfolio/port1.jpg"
@@ -117,7 +121,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a
                 href=""
                 aria-label="Постер New Orlean vs Golden Star link"
@@ -137,7 +141,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a
                 href=""
                 aria-label="Ресторан Seafood link"
@@ -157,7 +161,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a href="" aria-label="Проект Prime link" class="link-portfolio"
                 ><img
                   src="./img/img-portfolio/port4.jpg"
@@ -174,7 +178,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a href="" aria-label="Проект Boxes link" class="link-portfolio"
                 ><img
                   src="./img/img-portfolio/port5.jpg"
@@ -191,7 +195,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a
                 href=""
                 aria-label="Inspiration has no Borders link"
@@ -211,7 +215,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a
                 href=""
                 aria-label="Видавництво Limited Edition link"
@@ -231,7 +235,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a href="" aria-label="Проект Lab link" class="link-portfolio"
                 ><img
                   src="./img/img-portfolio/port8.jpg"
@@ -248,7 +252,7 @@
                 </p>
               </a>
             </li>
-            <li class="item">
+            <li class="item project">
               <a
                 href=""
                 aria-label="Growing Business link"
@@ -304,46 +308,54 @@
         <section class="footer-media">
           <h2 class="visually-hidden">Секція соціальні мережі</h2>
           <p class="feedback">Приєднуйтеся</p>
-          <ul class="list">
-            <li>
+          <ul class="list social-icon-list">
+            <li class="media-item social-icon-item">
               <a
                 href=""
                 aria-label="Instagram link"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="active"
-                >Instagram</a
+                class="active social-icon-link"
               >
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/sprite.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-            <li>
+            <li class="media-item">
               <a
                 href=""
                 aria-label="Twitter link"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="active"
-                >Twitter</a
-              >
+                class="active social-icon-link"
+                ><svg class="social-icon" width="20" height="20">
+                  <use href="./img/sprite.svg#icon-twitter1"></use>
+                </svg>
+              </a>
             </li>
-            <li>
+            <li class="media-item">
               <a
                 href=""
                 aria-label="Facebook link"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="active"
-                >Facebook</a
-              >
+                class="active social-icon-link"
+                ><svg class="social-icon" width="20" height="20">
+                  <use href="./img/sprite.svg#icon-Vector-1"></use>
+                </svg>
+              </a>
             </li>
-            <li>
+            <li class="media-item">
               <a
                 href=""
                 aria-label="LinkedIn link"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="active"
-                >LinkedIn</a
-              >
+                class="active social-icon-link"
+                ><svg class="social-icon" width="20" height="20">
+                  <use href="./img/sprite.svg#icon-linkedin-111"></use></svg
+              ></a>
             </li>
           </ul>
         </section>
